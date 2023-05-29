@@ -224,7 +224,18 @@ html::-webkit-scrollbar{
     margin-top: 30px;
 }
 
+#btn-menu{
+    border: 2px solid var(--header);
+    color: var(--header);  
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: transparent
+}
+
+#btn-menu:hover{
+    background-color: var(--header);
+    color: white;
+}
+
+
 /*Menu Section*/
-
-
-
