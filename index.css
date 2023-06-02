@@ -210,6 +210,15 @@ html::-webkit-scrollbar{
     border-top-right-radius: 10px;
 }
 
+#menu .card .card-body .card-title{
+    font-weight: bold;
+}
+
+#menu .card .card-body .card-title span{
+    font-weight: normal;
+    color: var(--header);
+}
+
 .heading2{
     color: var(--body);
     text-align: center;
@@ -239,3 +248,64 @@ html::-webkit-scrollbar{
 
 
 /*Menu Section*/
+
+/*Products Section*/
+#products{
+    width: 100%;
+    background: var(--body);
+}
+
+#products .card{
+    height: 470px;
+    border: none;
+    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: var(--header);
+    color: var(--body);
+}
+
+#products .card img{
+    height: 300px;
+    object-fit: cover;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#products .card .card-body .card-title{
+    font-weight: bold;
+}
+
+#products .card .card-body .card-title span{
+    font-weight: normal;
+    color: var(--body);
+}
+
+.heading3{
+    color: var(--header);
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.container{
+    margin-top: 30px;
+}
+
+#btn-products{
+    border: 2px solid var(--body);
+    color: var(--body);
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: transparent
+}
+
+#btn-products:hover{
+    background-color: var(--body);
+    color: var(--header)
+}
+/*Products Section*/
