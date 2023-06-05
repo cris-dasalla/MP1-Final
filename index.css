@@ -183,6 +183,10 @@ html::-webkit-scrollbar{
     #about{
         height: 160vh;
     }
+    
+    #home{
+        height: 120vh;
+    }
 }
 /*About Section Ends*/
 
